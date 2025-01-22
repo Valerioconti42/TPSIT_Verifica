@@ -1,1 +1,4 @@
 Descrizione generale:
+Questa repos. contiene semplicemente dei files di testo senza importanza, utili solo ai fini della prova del git merge sia senza che con conflitto.
+
+ 
