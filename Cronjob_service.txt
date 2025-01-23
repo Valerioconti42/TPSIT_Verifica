@@ -1,0 +1,37 @@
+***************************
+Comando crontab con opzioni
+***************************
+
+Editare il crontab:		crontab -e
+	Questo comando permette di specificare i task da affidare allo scheduling
+	del servizio Cronjob.
+
+Visualizzare il crontab: 	crontab -l
+	Questo comando visualizza l'intero contenuto del crontab dell'utente,
+	mostrando tutti i task schedulati.
+
+Eliminare il crontab:		crontab -r
+	Questo comando rimuove completamente il crontab dell'utente.
+	Questa azione è irreversibile, quindi va utilizzata con cautela.
+
+Eliminare il crontab
+adottando cautele:		crontab -i -r
+	Questo comando rimuove il crontab dell'utente ma prima chiedendo conferma.
+
+Copiare un crontab:		crontab nomefile.cron
+	Questo comando copia il contenuto di un file (file.cron)
+	nel crontab corrente dell'utente. Questo è utile per condividere o ripristinare configurazioni.
+
+
+************************************
+File coinvolti nel servizio cronjob:
+************************************
+
+    /etc/crontab
+		Questo file contiene le task cron che si applicano a tutti gli utenti del sistema.
+
+    /var/log/cron
+		Questo file di log registra le uscite standard ed errori dei Cronjob.
+
+    /var/spool/cron
+		Questa directory contiene i file crontab individuali degli utenti.
