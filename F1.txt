@@ -4,3 +4,5 @@ Questa repos. contiene semplicemente dei files di testo senza importanza, utili 
  
 Verrà prima fatta una fusione di files senza conflitto, poi una con conflitto.
 
+- Frase di controllo -
+
